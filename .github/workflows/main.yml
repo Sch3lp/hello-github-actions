@@ -9,5 +9,5 @@ jobs:
     - uses: actions/checkout@master
     - uses: ./action-a
       env:
-        MY_NAME: "Sch3lp"
+        MY_NAME: ${{ secrets.SECRET_NAME }}
 
